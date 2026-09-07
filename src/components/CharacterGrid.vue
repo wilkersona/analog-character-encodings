@@ -19,8 +19,7 @@ defineProps({
   },
 });
 
-// assuming SVGs live in /public/svg/...
-const getSvgUrl = (svgFile) => `/svg/${svgFile}`;
+const getSvgUrl = (svgFile) => `${process.env.BASE_URL}svg/${svgFile}`;
 </script>
 
 <template>
