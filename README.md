@@ -36,27 +36,4 @@ Add an encoding module under `src/data/encodings/<id>/index.js`, then register i
 
 For SVG-backed characters, place square SVG files in `public/svg/<id>/`. Standard letters and digits use filenames such as `A.svg` and `0.svg`. Text-based encodings can provide a `value` instead of an `svgFile`.
 
-Alphabetic systems list their letter set by default. Digits are included only when they are a distinct part of the encoding, such as Morse, ASCII, Braille, or Sign Language.# hello-world
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Alphabetic systems list their letter set by default. Digits are included only when they are a distinct part of the encoding, such as Morse, ASCII, Braille, or Sign Language.
