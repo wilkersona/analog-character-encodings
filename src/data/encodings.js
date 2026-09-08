@@ -17,6 +17,7 @@ import romanNumerals from './encodings/roman-numerals';
 import tallyMarks from './encodings/tally-marks';
 import ascii from './encodings/ascii';
 import ebcdic from './encodings/ebcdic';
+import bowlingPin from './encodings/bowling-pin';
 
 export { categories } from './categories';
 
@@ -39,6 +40,7 @@ export const encodings = [
   tallyMarks,
   ascii,
   ebcdic,
+  bowlingPin
 ];
 
 export const getEncodingById = id =>
